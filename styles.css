@@ -1,0 +1,43 @@
+main{
+width: 900px;
+
+
+}
+
+
+aside{
+
+
+    width: 25rem;
+    margin: 1rem;
+    border: 1px solid blueviolet;
+    padding: 12px;
+    background-color: rgb(28, 110, 161);
+    color: white;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+
+}
+
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+
+p {
+
+    padding: 0;
+}
+
+
+footer {
+
+margin: top 15px;
+border-top: 12px;
+text-align: center;
+}
