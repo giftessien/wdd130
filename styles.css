@@ -19,7 +19,7 @@ aside {
 }
 
 nav a {
-    color: antiquewhite;
+    background-color: antiquewhite;
     padding: 12px;
     display: block;
 }
