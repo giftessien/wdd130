@@ -18,7 +18,7 @@ aside {
     color: white;
 }
 
-nav {
+nav a {
     background-color: antiquewhite;
     padding: 12px;
     display: block;
