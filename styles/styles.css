@@ -24,6 +24,12 @@ nav a {
     display: block;
 }
 
+nav {
+    background-color: antiquewhite;
+    padding: 12px;
+    display: block;
+}
+
 aside img {
     width: 200px;
     height: auto;
