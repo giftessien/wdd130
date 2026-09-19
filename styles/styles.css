@@ -1,6 +1,5 @@
 main {
-    width: 900px;
-    max-width: fit-content;
+    max-width: 840px;
 
 }
 
@@ -39,7 +38,7 @@ main img {
     width: 150px;
     border: 12px;
     padding: 20px;
-    box-shadow: 0cqi;
+    box-shadow: 0 0 10px gray;
     height: auto;
 }
 
