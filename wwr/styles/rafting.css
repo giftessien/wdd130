@@ -68,3 +68,39 @@ h1 {
     width: 80%;
     padding: 20px;
 }
+
+/* Hero Overlay Positioning */
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.hero article img {
+    width: 150px;
+    height: auto;
+    float: right;
+    margin-left: 15px;
+}
