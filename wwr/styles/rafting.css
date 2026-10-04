@@ -4,7 +4,7 @@
     --accent1-color: #264653;
     --accent2-color: #4a4740;
     --heading-font: "Times New Roman", "Georgia", serif;
-    --body-font: Ariel, Helvetic, sans-serif;
+    --body-font: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: var(--primary-color);
+    font-family: var(--body-font);
     color: var(--accent2-color);
 }
 
@@ -22,11 +22,14 @@ body {
     position: relative;
 }
 
-header,
+header {
+    background-color: var(--accent1-color);
+}
+
 main,
 footer {
-    width: 840px;
-    margin: 0;
+    background-color: var(--accent2-color);
+    color: white;
 }
 
 h1,
@@ -35,9 +38,16 @@ h2 {
     color: var(--primary-color);
 }
 
-nav,
+nav a {
+    color: white;
+}
+
+section {
+    background-color: var(--secondary-color);
+    padding: 20px;
+}
+
 p,
-section,
 article {
     margin: 16px;
     padding: 8px;
