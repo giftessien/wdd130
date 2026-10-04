@@ -86,20 +86,3 @@ article {
     float: right;
     margin-left: 15px;
 }
-
-.socialmedia {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-}
-
-.socialmedia a {
-    display: block;
-}
-
-.socialmedia img {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-    display: block;
-}
