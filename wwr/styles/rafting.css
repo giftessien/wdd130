@@ -15,7 +15,8 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent2-color);
+    color: #222222;
+    background-color: white;
 }
 
 .hero {
@@ -28,8 +29,9 @@ header {
 
 main,
 footer {
-    background-color: var(--accent2-color);
+    background-color: #333333;
     color: white;
+
 }
 
 h1,
@@ -43,8 +45,8 @@ nav a {
 }
 
 section {
-    background-color: var(--secondary-color);
-    padding: 20px;
+    background-color: #f4a261;
+    color: #222222;
 }
 
 p,
@@ -72,12 +74,14 @@ article {
 }
 
 .hero article {
+
+    color: #222222;
     position: absolute;
     bottom: 20px;
     left: 10%;
     width: 80%;
     padding: 15px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.95);
 }
 
 .hero article img {
