@@ -32,10 +32,14 @@ footer {
     color: white;
 }
 
-h1,
+h1 {
+    font-family: var(--heading-font);
+    color: #ffffff;
+}
+
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: #333333;
 }
 
 nav a {
@@ -44,6 +48,7 @@ nav a {
 
 section {
     background-color: var(--secondary-color);
+    color: #333333;
     padding: 20px;
 }
 
@@ -78,6 +83,7 @@ article {
     width: 80%;
     padding: 15px;
     background-color: rgba(255, 255, 255, 0.8);
+    color: #222222;
 }
 
 .hero article img {
