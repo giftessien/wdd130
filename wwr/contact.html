@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-      content="Learn about our white water rafting company, our history, and our commitment to exciting and safe river adventures.">
+    <meta name="description" content="Contact our white water rafting company for information, reservations,
+      questions, and suggestions about our exciting river adventures.">
     <meta name="author" content="Akpan Enobong Essien">
     <link rel="stylesheet" href="styles/rafting.css">
-    <title>About Us | White Water Rafting</title>
+    <title>Contact Us | White Water Rafting</title>
 </head>
 
 <body>
@@ -31,37 +31,114 @@
         <div class="hero">
             <img src="images/hero-ride.jpg" alt="People enjoying a white water rafting adventure">
 
-            <h1>White Water Rafting</h1>
+            <h1>Contact Us</h1>
             <article>
                 <img src="images/rafting.jpg" alt="Rafters enjoying a river adventure">
 
                 <p>
-                    Our rafting company provides exciting river adventures for
-                    individuals, families, and groups. We are committed to creating
-                    safe, memorable, and enjoyable experiences on the water.
+                    We would love to hear from you. Contact us with questions,
+                    reservation requests, or suggestions about our rafting adventures.
                 </p>
             </article>
         </div>
 
         <section>
-            <h2>History</h2>
+            <h2>company-info</h2>
 
             <p>
-                White water rafting has a rich history that dates back to the
-                early 20th century. It began as a recreational activity on
-                rivers and has grown into a popular adventure sport enjoyed by
-                people around the world.
+                <strong>Address:</strong>
+                12 River Adventure Road, Uyo, Akwa Ibom State, Nigeria.
             </p>
+
+            <p>
+                <strong>Phone:</strong>
+                +234 7084974405
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                essiengift75@gmail.com
+            </p>
+
+            <iframe
+              src="https://www.google.com/maps?q=Uyo%2C%20Akwa%20Ibom%2C%20Nigeria&output=embed"
+              width="600" height="450" loading="lazy"
+              title="Map showing our location in Uyo, Akwa Ibom, Nigeria">
+            </iframe>
         </section>
 
-        <section>
-            <h2>Adventure Awaits You!</h2>
+        <section class="employees">
+            <h2>Meet Our Team</h2>
 
-            <p>
-                Discover exciting rivers, beautiful scenery, and unforgettable
-                adventures. Join us for an experience filled with fun,
-                teamwork, and excitement.
-            </p>
+            <div class="employee-grid">
+
+                <figure>
+                    <img src="images/Gloria john.jpg" alt="prince John, rafting manager">
+                    <figcaption>
+                        <strong>Gloria John</strong><br>
+                        Rafting Manager
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/God'Gift.jpg" alt="God's gift, customer service manager">
+                    <figcaption>
+                        <strong>God's Gift</strong><br>
+                        Customer Service Manager
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/philip paul.jpg" alt="Philip Paul, senior rafting guide">
+                    <figcaption>
+                        <strong>Philip Paul</strong><br>
+                        Senior Rafting Guide
+                    </figcaption>
+                </figure>
+
+            </div>
+        </section>
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+
+            <form>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+
+                    <label>
+                        <input type="radio" name="purpose" value="general" required>
+                        General Inquiry
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <label class="newsletter">
+                    <input type="checkbox" name="newsletter">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Send Message</button>
+
+            </form>
         </section>
 
     </main>
@@ -81,6 +158,8 @@
             <a href="https://www.youtube.com/">
                 <img src="images/youtube.jpg" alt="YouTube Logo">
             </a>
+            </section>
+
         </nav>
     </footer>
 
