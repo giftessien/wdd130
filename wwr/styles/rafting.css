@@ -214,6 +214,10 @@ article {
     text-align: center;
 }
 
+.trip-grid > h2 {
+    grid-column: 1 / -1;
+}
+
 .trip-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
