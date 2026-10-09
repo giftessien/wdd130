@@ -215,6 +215,7 @@ article {
 }
 
 .trip-grid > h2 {
+    text-align: center;
     grid-column: 1 / -1;
 }
 
